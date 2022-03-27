@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 print('\033[33m')
 time.sleep(0.5)
-print('欢迎来到单词的世界！')
+print('欢迎来到单词的世界!')
 time.sleep(0.5)
 print('在这里，你将用给定的字母拼出单词，单词越长，得分越高')
 time.sleep(0.5)
@@ -18,7 +18,7 @@ print('\033[0m')
 input('输入go开始游戏')
 time.sleep(0.5)
 # 游戏模块
-level = int(input('请选择难度（1~10）,低于1视为1，高于10视为10.特别的，输入0结束游戏：'))
+level = int(input('请选择难度（1~10）,低于1视为1，高于10视为10.特别的，输入0结束游戏:'))
 if level < 1 and level != 0:
     level = 1
 elif level > 10:
